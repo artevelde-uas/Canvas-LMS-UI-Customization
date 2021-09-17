@@ -1,0 +1,3 @@
+[submodule "packages/library/app"]
+	path = packages/library/app
+	url = https://github.com/artevelde-uas/canvas-lms-app.git
