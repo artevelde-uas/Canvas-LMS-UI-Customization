@@ -1,3 +1,15 @@
 [submodule "packages/library/app"]
 	path = packages/library/app
 	url = https://github.com/artevelde-uas/canvas-lms-app.git
+[submodule "packages/plugins/export-course-groups"]
+	path = packages/plugins/export-course-groups
+	url = https://github.com/artevelde-uas/canvas-lms-export-course-groups-plugin.git
+[submodule "packages/plugins/file-explorer-enhancements"]
+	path = packages/plugins/file-explorer-enhancements
+	url = https://github.com/artevelde-uas/canvas-lms-file-explorer-enhancements-plugin.git
+[submodule "packages/plugins/enable-course-recycle-bin"]
+	path = packages/plugins/enable-course-recycle-bin
+	url = https://github.com/artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin.git
+[submodule "packages/plugins/fix-files-navigation"]
+	path = packages/plugins/fix-files-navigation
+	url = https://github.com/artevelde-uas/canvas-lms-fix-files-navigation-plugin.git
