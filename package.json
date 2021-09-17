@@ -9,7 +9,6 @@
   "private": "true",
   "workspaces": [
     "packages/library/*",
-    "packages/plugins/*",
-    "demo"
+    "packages/plugins/*"
   ]
 }

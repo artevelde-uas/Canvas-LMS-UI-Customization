@@ -13,6 +13,3 @@
 [submodule "packages/plugins/fix-files-navigation"]
 	path = packages/plugins/fix-files-navigation
 	url = https://github.com/artevelde-uas/canvas-lms-fix-files-navigation-plugin.git
-[submodule "demo"]
-	path = demo
-	url = https://github.com/artevelde-uas/canvas-lms-customisation-demo.git
