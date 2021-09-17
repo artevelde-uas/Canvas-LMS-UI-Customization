@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/artevelde-uas/Canvas-LMS-UI-Customization.git",
   "author": "Renaat De Muynck <renaat.demuynck@arteveldehs.be>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ]
 }
