@@ -1,0 +1,9 @@
+{
+  "name": "@artevelde-uas/canvas-lms-ui-customization",
+  "version": "0.1.0",
+  "description": "Canvas LMS UI Customization",
+  "main": "index.js",
+  "repository": "https://github.com/artevelde-uas/Canvas-LMS-UI-Customization.git",
+  "author": "Renaat De Muynck <renaat.demuynck@arteveldehs.be>",
+  "license": "MIT"
+}
