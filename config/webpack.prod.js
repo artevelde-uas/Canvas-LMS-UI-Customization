@@ -9,7 +9,10 @@ const MB = 2 ** 20;
 module.exports = {
     mode: 'production',
     entry: {
-        desktop: './src/desktop/index.js',
+        desktop: [
+            'core-js/stable',
+            './src/desktop/index.js'
+        ],
         mobile: './src/mobile/index.js'
     },
     output: {
