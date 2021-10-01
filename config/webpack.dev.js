@@ -4,7 +4,11 @@ const browserslist = require('@instructure/browserslist-config-canvas-lms');
 module.exports = {
     mode: 'development',
     entry: {
-        desktop: './src/desktop/index.js',
+        desktop: [
+            './src/hide-test-env-warning.css',
+            './src/hide-theme-editor-warning.css',
+            './src/desktop/index.js'
+        ],
         mobile: './src/mobile/index.js'
     },
     output: {
