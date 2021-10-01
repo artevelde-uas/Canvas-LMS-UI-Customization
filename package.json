@@ -10,5 +10,12 @@
   "workspaces": [
     "packages/library/*",
     "packages/plugins/*"
-  ]
+  ],
+  "dependencies": {
+    "@artevelde-uas/canvas-lms-app": "*",
+    "@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin": "*",
+    "@artevelde-uas/canvas-lms-export-course-groups-plugin": "*",
+    "@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin": "*",
+    "@artevelde-uas/canvas-lms-fix-files-navigation-plugin": "*"
+  }
 }
