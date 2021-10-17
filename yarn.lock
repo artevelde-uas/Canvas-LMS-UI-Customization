@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"@artevelde-uas/canvas-lms-api@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@artevelde-uas/canvas-lms-api/-/canvas-lms-api-0.2.1.tgz#c4b15de4ada8bc70aca36eb31e89d0a25a89c3e3"
-  integrity sha512-UYK6/MA/mNzLjdSOfe4yd2YHj8MDH788nokldioNh8eEuVJ7nc2lQMv9F6PiLARC6T988u9nDV4v9tiVqlczKg==
-  dependencies:
-    js-cookie "^2.2.1"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
