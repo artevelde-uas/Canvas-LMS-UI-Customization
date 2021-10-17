@@ -18,9 +18,12 @@ module.exports = {
     output: {
         filename: '[name].prod.js'
     },
+    resolve: {
+        extensions: ['.js', '.jsx'],
+    },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.jsx?$/,
             use: [{
                 loader: 'babel-loader',
                 options: {
@@ -29,6 +32,10 @@ module.exports = {
                             targets: browserslist,
                             useBuiltIns: 'entry',
                             corejs: 3
+                        }
+                    ], [
+                        '@babel/preset-react', {
+                            runtime: 'automatic'
                         }
                     ]]
                 }

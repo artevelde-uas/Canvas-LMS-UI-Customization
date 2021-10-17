@@ -14,9 +14,12 @@ module.exports = {
     output: {
         filename: '[name].dev.js'
     },
+    resolve: {
+        extensions: ['.js', '.jsx'],
+    },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.jsx?$/,
             exclude: /node_modules/,
             use: [{
                 loader: 'babel-loader',
@@ -25,7 +28,11 @@ module.exports = {
                         '@babel/preset-env', {
                             targets: browserslist
                         }
-                    ]]
+                    ], [
+                        '@babel/preset-react', {
+                            runtime: 'automatic'
+                        }
+                    ]
                 }
             }]
         }, {

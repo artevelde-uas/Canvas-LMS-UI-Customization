@@ -17,11 +17,14 @@
     "@artevelde-uas/canvas-lms-export-course-groups-plugin": "*",
     "@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin": "*",
     "@artevelde-uas/canvas-lms-fix-files-navigation-plugin": "*",
-    "core-js": "3"
+    "core-js": "3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
     "@instructure/browserslist-config-canvas-lms": "^2.0.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.3.0",
