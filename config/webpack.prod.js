@@ -58,6 +58,7 @@ module.exports = {
                     postcssOptions: {
                         plugins: [
                             'postcss-import',
+                            'postcss-nesting',
                             'postcss-preset-env',
                             [
                                 'postcss-url', {
