@@ -16,7 +16,7 @@ module.exports = {
         filename: '[name].dev.js'
     },
     resolve: {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.json'],
     },
     module: {
         rules: [{
