@@ -3,6 +3,7 @@ const browserslist = require('@instructure/browserslist-config-canvas-lms');
 
 module.exports = {
     mode: 'development',
+    devtool: 'eval-source-map',
     entry: {
         desktop: [
             './src/hide-test-env-warning.css',
