@@ -13,3 +13,6 @@
 [submodule "packages/plugins/fix-files-navigation"]
 	path = packages/plugins/fix-files-navigation
 	url = https://github.com/artevelde-uas/canvas-lms-fix-files-navigation-plugin.git
+[submodule "packages/plugins/enhanced-login-page"]
+	path = packages/plugins/enhanced-login-page
+	url = C:/Users/renadm/Projects/Canvas/UI Customization/packages/plugins/enhanced-login-page
