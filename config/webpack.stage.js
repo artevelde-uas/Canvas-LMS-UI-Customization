@@ -21,6 +21,9 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
+        alias: {
+            '@artevelde-uas/canvas-lms-app/services': '@artevelde-uas/canvas-lms-app/src/services'
+        }
     },
     module: {
         rules: [{
