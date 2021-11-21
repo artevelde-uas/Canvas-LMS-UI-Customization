@@ -11,10 +11,16 @@ import './index.css';
 
 canvas.addPlugin(enableCourseRecycleBinPlugin);
 canvas.addPlugin(enhancedLoginPagePlugin, {
-    logo: require('../../assets/canvasahs_white.svg'),
-    studentStaffImage: require('../../assets/students.jpg'),
-    guestImage: require('../../assets/external.jpg'),
-    studentStaffLoginUrl: 'microsoft/5'
+    intro: 'Welkom op de aanmeldingspagina van Canvas, de digitale leeromgeving van de Arteveldehogeschool.',
+    studentStaff: {
+        image: require('../../assets/students.jpg'),
+        title: 'Studenten & Docenten',
+        text: 'Aanmelden met je Artevelde account',
+        loginUrl: 'microsoft/5'
+    },
+    guest: {
+        image: require('../../assets/external.jpg')
+    }
 });
 canvas.addPlugin(exportCourseGroupsPlugin);
 canvas.addPlugin(fileExplorerEnhancementsPlugin);
