@@ -1,4 +1,4 @@
-import canvas from '@artevelde-uas/canvas-lms-app';
+import { run, addPlugin } from '@artevelde-uas/canvas-lms-app';
 
 import enableCourseRecycleBinPlugin from '@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin';
 import enhancedLoginPagePlugin from '../../packages/plugins/enhanced-login-page/src/';
@@ -9,8 +9,8 @@ import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-naviga
 import './index.css';
 
 
-canvas.addPlugin(enableCourseRecycleBinPlugin);
-canvas.addPlugin(enhancedLoginPagePlugin, {
+addPlugin(enableCourseRecycleBinPlugin);
+addPlugin(enhancedLoginPagePlugin, {
     intro: 'Welkom op de aanmeldingspagina van Canvas, de digitale leeromgeving van de Arteveldehogeschool.',
     studentStaff: {
         image: require('../../assets/students.jpg'),
@@ -22,8 +22,8 @@ canvas.addPlugin(enhancedLoginPagePlugin, {
         image: require('../../assets/external.jpg')
     }
 });
-canvas.addPlugin(exportCourseGroupsPlugin);
-canvas.addPlugin(fileExplorerEnhancementsPlugin);
-canvas.addPlugin(fixFilesNavigationPlugin);
+addPlugin(exportCourseGroupsPlugin);
+addPlugin(fileExplorerEnhancementsPlugin);
+addPlugin(fixFilesNavigationPlugin);
 
-canvas.run();
+run();
