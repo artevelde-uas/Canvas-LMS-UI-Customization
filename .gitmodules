@@ -22,3 +22,6 @@
 [submodule "packages/plugins/clear-all-sections-default"]
 	path = packages/plugins/clear-all-sections-default
 	url = https://github.com/artevelde-uas/canvas-lms-clear-all-sections-default-plugin.git
+[submodule "packages/plugins/only-show-selected-module"]
+	path = packages/plugins/only-show-selected-module
+	url = https://github.com/artevelde-uas/canvas-lms-only-show-selected-module-plugin.git
