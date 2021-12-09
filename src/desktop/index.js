@@ -1,5 +1,6 @@
 import { run, addPlugin } from '@artevelde-uas/canvas-lms-app';
 
+import clearAllSectionsDefaultPlugin from '@artevelde-uas/canvas-lms-clear-all-sections-default-plugin';
 import enableCourseRecycleBinPlugin from '@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin';
 import enhancedLoginPagePlugin from '../../packages/plugins/enhanced-login-page/src/';
 import exportCourseGroupsPlugin from '@artevelde-uas/canvas-lms-export-course-groups-plugin';
@@ -9,6 +10,7 @@ import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-naviga
 import './index.css';
 
 
+addPlugin(clearAllSectionsDefaultPlugin);
 addPlugin(enableCourseRecycleBinPlugin);
 addPlugin(enhancedLoginPagePlugin, {
     intro: 'Welkom op de aanmeldingspagina van Canvas, de digitale leeromgeving van de Arteveldehogeschool.',

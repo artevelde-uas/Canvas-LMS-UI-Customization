@@ -19,3 +19,6 @@
 [submodule "packages/library/api"]
 	path = packages/library/api
 	url = https://github.com/artevelde-uas/canvas-lms-api.git
+[submodule "packages/plugins/clear-all-sections-default"]
+	path = packages/plugins/clear-all-sections-default
+	url = https://github.com/artevelde-uas/canvas-lms-clear-all-sections-default-plugin.git
