@@ -25,3 +25,6 @@
 [submodule "packages/plugins/only-show-selected-module"]
 	path = packages/plugins/only-show-selected-module
 	url = https://github.com/artevelde-uas/canvas-lms-only-show-selected-module-plugin.git
+[submodule "packages/plugins/assignments-bulk-assign-to"]
+	path = packages/plugins/assignments-bulk-assign-to
+	url = https://github.com/artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin.git
