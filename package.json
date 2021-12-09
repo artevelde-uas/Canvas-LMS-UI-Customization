@@ -50,6 +50,6 @@
     "build:stage": "webpack --progress --config=./config/webpack.stage.js",
     "build:dev": "webpack --progress --config=./config/webpack.dev.js",
     "watch": "webpack --watch --stats=minimal --config=./config/webpack.dev.js",
-    "serve": "serve ./dist/"
+    "serve": "serve -p 5000 ./dist/"
   }
 }
