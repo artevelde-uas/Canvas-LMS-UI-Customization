@@ -20,6 +20,9 @@
     "@artevelde-uas/canvas-lms-export-course-groups-plugin": "*",
     "@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin": "*",
     "@artevelde-uas/canvas-lms-fix-files-navigation-plugin": "*",
+    "@instructure/canvas-theme": "^8.13.0",
+    "@instructure/emotion": "^8.13.0",
+    "@instructure/ui": "^8.13.0",
     "core-js": "3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
