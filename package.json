@@ -20,6 +20,7 @@
     "@artevelde-uas/canvas-lms-export-course-groups-plugin": "*",
     "@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin": "*",
     "@artevelde-uas/canvas-lms-fix-files-navigation-plugin": "*",
+    "@artevelde-uas/canvas-lms-only-show-selected-module-plugin": "*",
     "@instructure/canvas-theme": "^8.13.0",
     "@instructure/emotion": "^8.13.0",
     "@instructure/ui": "^8.13.0",

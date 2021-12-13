@@ -7,6 +7,7 @@ import enhancedLoginPagePlugin from '../../packages/plugins/enhanced-login-page/
 import exportCourseGroupsPlugin from '@artevelde-uas/canvas-lms-export-course-groups-plugin';
 import fileExplorerEnhancementsPlugin from '@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin';
 import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-navigation-plugin';
+import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-selected-module-plugin';
 
 import './index.css';
 
@@ -29,5 +30,6 @@ addPlugin(enhancedLoginPagePlugin, {
 addPlugin(exportCourseGroupsPlugin);
 addPlugin(fileExplorerEnhancementsPlugin);
 addPlugin(fixFilesNavigationPlugin);
+addPlugin(onlyShowSelectedModulePlugin);
 
 run();
