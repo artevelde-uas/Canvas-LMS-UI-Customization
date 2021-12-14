@@ -1,6 +1,6 @@
 import { run, addPlugin } from '@artevelde-uas/canvas-lms-app';
 
-import assignmentBulkOverridesPlugin from '@artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin';
+import assignmentsBulkAssignToPlugin from '@artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin';
 import clearAllSectionsDefaultPlugin from '@artevelde-uas/canvas-lms-clear-all-sections-default-plugin';
 import enableCourseRecycleBinPlugin from '@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin';
 import enhancedLoginPagePlugin from '../../packages/plugins/enhanced-login-page/src/';
@@ -12,7 +12,7 @@ import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-se
 import './index.css';
 
 
-addPlugin(assignmentBulkOverridesPlugin);
+addPlugin(assignmentsBulkAssignToPlugin);
 addPlugin(clearAllSectionsDefaultPlugin);
 addPlugin(enableCourseRecycleBinPlugin);
 addPlugin(enhancedLoginPagePlugin, {
