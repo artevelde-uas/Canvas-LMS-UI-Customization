@@ -28,3 +28,6 @@
 [submodule "packages/plugins/assignments-bulk-assign-to"]
 	path = packages/plugins/assignments-bulk-assign-to
 	url = https://github.com/artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin.git
+[submodule "packages/plugins/installed-plugins-list"]
+	path = packages/plugins/installed-plugins-list
+	url = C:\\Users\\renadm\\Projects\\Canvas\\UI Customization\\packages\\plugins\\installed-plugins-list
