@@ -12,6 +12,7 @@
     "packages/plugins/*"
   ],
   "dependencies": {
+    "@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin": "*",
     "@artevelde-uas/canvas-lms-app": "*",
     "@artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin": "*",
     "@artevelde-uas/canvas-lms-clear-all-sections-default-plugin": "*",
@@ -20,6 +21,7 @@
     "@artevelde-uas/canvas-lms-export-course-groups-plugin": "*",
     "@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin": "*",
     "@artevelde-uas/canvas-lms-fix-files-navigation-plugin": "*",
+    "@artevelde-uas/canvas-lms-gradebook-disclaimer-plugin": "*",
     "@artevelde-uas/canvas-lms-installed-plugins-list-plugin": "*",
     "@artevelde-uas/canvas-lms-only-show-selected-module-plugin": "*",
     "@instructure/canvas-theme": "^8.13.0",

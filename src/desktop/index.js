@@ -7,6 +7,7 @@ import enhancedLoginPagePlugin from '../../packages/plugins/enhanced-login-page/
 import exportCourseGroupsPlugin from '@artevelde-uas/canvas-lms-export-course-groups-plugin';
 import fileExplorerEnhancementsPlugin from '@artevelde-uas/canvas-lms-file-explorer-enhancements-plugin';
 import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-navigation-plugin';
+import gradebookDisclaimerPlugin from '@artevelde-uas/canvas-lms-gradebook-disclaimer-plugin';
 import installedPluginsListPlugin from '@artevelde-uas/canvas-lms-installed-plugins-list-plugin';
 import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-selected-module-plugin';
 
@@ -31,6 +32,20 @@ addPlugin(enhancedLoginPagePlugin, {
 addPlugin(exportCourseGroupsPlugin);
 addPlugin(fileExplorerEnhancementsPlugin);
 addPlugin(fixFilesNavigationPlugin);
+addPlugin(gradebookDisclaimerPlugin, {
+    message: 'This is a disclaimer!',
+    modalTitle: 'Indicative partial grade',
+    modalText: `
+        <blockquote>
+            <p>An indicative partial grade is a grade that indicates the extent to which the student has acquired competences of a course unit or parts thereof. The indicative partial grade is preliminary data with a view to support, remediation opportunities and promoting the study progress.</p>
+            <footer>
+                <cite>&mdash; <a href="https://example.org/student/studycontract.pdf">
+                    Student Study Contract</a></cite>
+            </footer>
+        </blockquote>
+    `,
+    showOnAssignmentsPage: true
+});
 addPlugin(installedPluginsListPlugin);
 addPlugin(onlyShowSelectedModulePlugin);
 

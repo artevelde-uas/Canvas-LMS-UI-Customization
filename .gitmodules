@@ -31,3 +31,6 @@
 [submodule "packages/plugins/installed-plugins-list"]
 	path = packages/plugins/installed-plugins-list
 	url = C:\\Users\\renadm\\Projects\\Canvas\\UI Customization\\packages\\plugins\\installed-plugins-list
+[submodule "packages/plugins/gradebook-disclaimer"]
+	path = packages/plugins/gradebook-disclaimer
+	url = https://github.com/artevelde-uas/canvas-lms-gradebook-disclaimer-plugin.git
