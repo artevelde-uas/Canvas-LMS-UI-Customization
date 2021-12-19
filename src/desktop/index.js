@@ -1,5 +1,6 @@
 import { run, addPlugin } from '@artevelde-uas/canvas-lms-app';
 
+import allCoursesTermsTabsPlugin from '@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin';
 import assignmentsBulkAssignToPlugin from '@artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin';
 import clearAllSectionsDefaultPlugin from '@artevelde-uas/canvas-lms-clear-all-sections-default-plugin';
 import enableCourseRecycleBinPlugin from '@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin';
@@ -14,6 +15,7 @@ import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-se
 import './index.css';
 
 
+addPlugin(allCoursesTermsTabsPlugin);
 addPlugin(assignmentsBulkAssignToPlugin);
 addPlugin(clearAllSectionsDefaultPlugin);
 addPlugin(enableCourseRecycleBinPlugin);

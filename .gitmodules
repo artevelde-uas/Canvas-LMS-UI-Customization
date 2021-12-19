@@ -34,3 +34,6 @@
 [submodule "packages/plugins/gradebook-disclaimer"]
 	path = packages/plugins/gradebook-disclaimer
 	url = https://github.com/artevelde-uas/canvas-lms-gradebook-disclaimer-plugin.git
+[submodule "packages/plugins/all-courses-terms-tabs"]
+	path = packages/plugins/all-courses-terms-tabs
+	url = https://github.com/artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin.git
