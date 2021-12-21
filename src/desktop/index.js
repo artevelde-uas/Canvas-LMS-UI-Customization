@@ -11,6 +11,7 @@ import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-naviga
 import gradebookDisclaimerPlugin from '@artevelde-uas/canvas-lms-gradebook-disclaimer-plugin';
 import installedPluginsListPlugin from '@artevelde-uas/canvas-lms-installed-plugins-list-plugin';
 import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-selected-module-plugin';
+import restrictSISCourseSettingsPlugin from '@artevelde-uas/canvas-lms-restrict-sis-course-settings-plugin';
 
 import './index.css';
 
@@ -50,5 +51,6 @@ addPlugin(gradebookDisclaimerPlugin, {
 });
 addPlugin(installedPluginsListPlugin);
 addPlugin(onlyShowSelectedModulePlugin);
+addPlugin(restrictSISCourseSettingsPlugin);
 
 run();
