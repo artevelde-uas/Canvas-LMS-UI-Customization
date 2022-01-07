@@ -11,6 +11,7 @@ import fileExplorerEnhancementsPlugin from '@artevelde-uas/canvas-lms-file-explo
 import fixFilesNavigationPlugin from '@artevelde-uas/canvas-lms-fix-files-navigation-plugin';
 import gradebookDisclaimerPlugin from '@artevelde-uas/canvas-lms-gradebook-disclaimer-plugin';
 import installedPluginsListPlugin from '@artevelde-uas/canvas-lms-installed-plugins-list-plugin';
+import msTeamsLinkPopupPlugin from '@artevelde-uas/canvas-lms-ms-teams-links-plugin';
 import onlyShowSelectedModulePlugin from '@artevelde-uas/canvas-lms-only-show-selected-module-plugin';
 import restrictSISCourseSettingsPlugin from '@artevelde-uas/canvas-lms-restrict-sis-course-settings-plugin';
 
@@ -57,6 +58,7 @@ addPlugin(gradebookDisclaimerPlugin, {
     showOnAssignmentsPage: true
 });
 addPlugin(installedPluginsListPlugin);
+addPlugin(msTeamsLinkPopupPlugin);
 addPlugin(onlyShowSelectedModulePlugin);
 addPlugin(restrictSISCourseSettingsPlugin);
 

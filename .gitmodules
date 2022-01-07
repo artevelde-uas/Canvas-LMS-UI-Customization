@@ -43,3 +43,6 @@
 [submodule "packages/plugins/better-left-menu"]
 	path = packages/plugins/better-left-menu
 	url = https://github.com/artevelde-uas/canvas-lms-better-left-menu-plugin.git
+[submodule "packages/plugins/ms-teams-links"]
+	path = packages/plugins/ms-teams-links
+	url = https://github.com/artevelde-uas/canvas-lms-ms-teams-links-plugin.git
