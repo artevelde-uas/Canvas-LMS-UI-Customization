@@ -15,6 +15,7 @@
     "@artevelde-uas/canvas-lms-all-courses-terms-tabs-plugin": "*",
     "@artevelde-uas/canvas-lms-app": "*",
     "@artevelde-uas/canvas-lms-assignments-bulk-assign-to-plugin": "*",
+    "@artevelde-uas/canvas-lms-better-left-menu-plugin": "*",
     "@artevelde-uas/canvas-lms-clear-all-sections-default-plugin": "*",
     "@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin": "*",
     "@artevelde-uas/canvas-lms-enhanced-login-page-plugin": "*",

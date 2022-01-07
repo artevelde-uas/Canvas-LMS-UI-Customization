@@ -40,3 +40,6 @@
 [submodule "packages/plugins/restrict-sis-course-settings"]
 	path = packages/plugins/restrict-sis-course-settings
 	url = https://github.com/artevelde-uas/canvas-lms-restrict-sis-course-settings-plugin.git
+[submodule "packages/plugins/better-left-menu"]
+	path = packages/plugins/better-left-menu
+	url = https://github.com/artevelde-uas/canvas-lms-better-left-menu-plugin.git
