@@ -49,3 +49,6 @@
 [submodule "packages/plugins/bbb-close-recording-reminder"]
 	path = packages/plugins/bbb-close-recording-reminder
 	url = https://github.com/artevelde-uas/canvas-lms-bbb-close-recording-reminder-plugin.git
+[submodule "packages/plugins/bbb-default-settings"]
+	path = packages/plugins/bbb-default-settings
+	url = https://github.com/artevelde-uas/canvas-lms-bbb-default-settings-plugin.git
