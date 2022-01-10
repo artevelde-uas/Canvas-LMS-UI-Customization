@@ -68,6 +68,30 @@ addPlugin(gradebookDisclaimerPlugin, {
 addPlugin(installedPluginsListPlugin);
 addPlugin(msTeamsLinkPopupPlugin);
 addPlugin(onlyShowSelectedModulePlugin);
-addPlugin(restrictSISCourseSettingsPlugin);
+addPlugin(restrictSISCourseSettingsPlugin, {
+    disable: {
+        image: true,
+        name: true,
+        code: true,
+        blueprint: true,
+        template: true,
+        timeZone: true,
+        account: true,
+        term: true,
+        participation: true,
+        language: true,
+        storage: true,
+        speedGraderFilter: true,
+        gradingScheme: true,
+        participation: true,
+        license: true,
+        copyright: true,
+        visibility: true,
+        format: true,
+        offline: true,
+        description: true,
+        moreOptions: true
+    }
+});
 
 run();
