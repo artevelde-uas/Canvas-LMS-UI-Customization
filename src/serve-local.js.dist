@@ -6,7 +6,7 @@
 {
     const script = document.createElement('script');
 
-    script.setAttribute('src', 'http://localhost:5000/desktop.dev.js');
+    script.setAttribute('src', '{{URL}}');
     script.setAttribute('defer', 'defer');
     document.head.appendChild(script);
 }
