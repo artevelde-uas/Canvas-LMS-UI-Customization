@@ -23,7 +23,11 @@ import './index.css';
 addPlugin(allCoursesTermsTabsPlugin);
 addPlugin(assignmentsBulkAssignToPlugin);
 addPlugin(bbbCloseRecordingReminderPlugin);
-addPlugin(bbbDefaultSettingsPlugin);
+addPlugin(bbbDefaultSettingsPlugin, {
+    duration: 90,
+    enableRecording: true,
+    noTimeLimit: true
+});
 addPlugin(betterLeftMenuPlugin, {
     classicStyles: true,
     thinScrollbar: true,
