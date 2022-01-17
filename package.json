@@ -6,7 +6,7 @@
   "repository": "https://github.com/artevelde-uas/Canvas-LMS-UI-Customization.git",
   "author": "Renaat De Muynck <renaat.demuynck@arteveldehs.be>",
   "license": "MIT",
-  "private": "true",
+  "packageManager": "yarn@3.1.1",
   "workspaces": [
     "packages/library/*",
     "packages/plugins/*"
