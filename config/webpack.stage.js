@@ -6,7 +6,7 @@ module.exports = {
     ...productionConfig,
     entry: {
         desktop: [
-            './src/hide-theme-editor-warning.css',
+            '@artevelde-uas/canvas-lms-app/src/server/hide-theme-editor-warning.css',
             'core-js/stable',
             './src/desktop/index.js'
         ],

@@ -6,8 +6,8 @@ module.exports = {
     devtool: 'eval-source-map',
     entry: {
         desktop: [
-            './src/hide-test-env-warning.css',
-            './src/hide-theme-editor-warning.css',
+            '@artevelde-uas/canvas-lms-app/src/server/hide-test-env-warning.css',
+            '@artevelde-uas/canvas-lms-app/src/server/hide-theme-editor-warning.css',
             './src/desktop/index.js'
         ],
         mobile: './src/mobile/index.js'

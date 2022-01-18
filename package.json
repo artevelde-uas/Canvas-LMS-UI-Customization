@@ -72,6 +72,6 @@
     "build:dev": "webpack --progress --config=./config/webpack.dev.js",
     "clean": "rimraf ./dist/",
     "watch": "webpack --watch --progress --stats=minimal --config=./config/webpack.dev.js",
-    "start": "node ./src/server.js"
+    "start": "canvas-server-start"
   }
 }
